@@ -12,17 +12,17 @@ You can use the project in this way:
 ### Install
 ```bash
 # with npm
-npm install dhoangzxje-hooks
+npm install dhoangzxje-hook
 
 # with yarn
-yarn add dhoangzxje-hooks
+yarn add dhoangzxje-hook
 ```
 
 ### Usage
 
 - Import the package in your app:
 ```js
-import {useFetch} from 'dhoangzxje-hooks';
+import {useFetch} from 'dhoangzxje-hook';
 ```
 - Get the country information from the hook:
 ```js
