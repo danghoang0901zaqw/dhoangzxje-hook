@@ -1,30 +1,30 @@
-# dhoang-hook
+# tapas-countries
 
-> dhoang custom hook
+A ReactJS custom hook information.
 
-[![NPM](https://img.shields.io/npm/v/dhoang-hook.svg)](https://www.npmjs.com/package/dhoang-hook) [![JavaScript Style Guide](https://img.shields.io/badge/code_style-standard-brightgreen.svg)](https://standardjs.com)
+## 🫶 Support
+Liked it? You can show your support with a STAR(⭐).
 
-## Install
+## How to use it?
 
+You can use the project in this way:
+
+### Install
 ```bash
-npm install --save dhoang-hook
+# with npm
+npm install dhoangzxje-hooks
+
+# with yarn
+yarn add dhoangzxje-hooks
 ```
 
-## Usage
+### Usage
 
-```jsx
-import React, { Component } from 'react'
-
-import MyComponent from 'dhoang-hook'
-import 'dhoang-hook/dist/index.css'
-
-class Example extends Component {
-  render() {
-    return <MyComponent />
-  }
-}
+- Import the package in your app:
+```js
+import {useFetch} from 'dhoangzxje-hooks';
 ```
-
-## License
-
-MIT © [](https://github.com/)
+- Get the country information from the hook:
+```js
+const {loading, error, data} = useCountry('https://...')'
+```
