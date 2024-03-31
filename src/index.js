@@ -1,0 +1,10 @@
+export { default as useClickOutside } from './hooks/useClickOutside' 
+export { default as useClipboard } from "./hooks/useClipboard";
+export { default as useDebounce } from "./hooks/useDebounce";
+export { default as useFetch } from "./hooks/useFetch";
+export { default as useLocalStorage } from "./hooks/useLocalStorage";
+export { default as useModal } from "./hooks/useModal";
+export { default as usePrevious } from "./hooks/usePrevious";
+export { default as useThrottle } from "./hooks/useThrottle";
+export { default as useToggle } from "./hooks/useToggle";
+export { default as useWindowScroll } from "./hooks/useWindowScroll";

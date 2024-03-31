@@ -1,0 +1,5 @@
+node_modules/
+dist
+.vscode
+danghoangzxje-hooks*.tgz
+.DS_Store
